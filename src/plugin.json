@@ -1,0 +1,9 @@
+{
+  "id": "generator-resourcepack-1.16.x",
+  "minversion": 202000400000,
+  "info": {
+    "name": "Resource Pack 1.16.x Generator",
+	"description": "A plugin adding a generator to create Resource Packs.",
+	"author": "Goldorion"
+  }
+}

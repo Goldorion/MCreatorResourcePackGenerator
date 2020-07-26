@@ -1,0 +1,25 @@
+name: Resource Pack for Minecraft Java Edition 1.16
+status: stable
+buildfileversion: 1.0.1
+
+gradle:
+  export_file: "build/export/export.zip"
+
+source_root: "@WORKSPACEROOT/src/main/"
+res_root: "@WORKSPACEROOT/src/main"
+mod_assets_root: "@RESROOT"
+
+block_textures_dir: "@MODASSETSROOT/assets/minecraft/textures/block/"
+item_textures_dir: "@MODASSETSROOT/assets/minecraft/textures/item/"
+armor_textures_dir: "@MODASSETSROOT/assets/minecraft/textures/models/armor/"
+sounds_dir: "@MODASSETSROOT/assets/minecraft/sounds"
+
+base_templates:
+  - template: pack.mcmeta
+    writer: json
+    name: "@SRCROOT/pack.mcmeta"
+
+language_file:
+  format: json
+  root_folder: "@MODASSETSROOT/assets/minecraft/lang/"
+  langfile_name: "@langname.json"
